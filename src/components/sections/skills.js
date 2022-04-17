@@ -327,6 +327,13 @@ const StyledText = styled.div`
         line-height: 12px;
       }
     }
+
+    @media (max-width:1280px) {
+      grid-template-columns: repeat(2, minmax(140px, 250px));
+    }
+    @media (max-width:600px) {
+      grid-template-columns: repeat(1, minmax(140px, 400px));
+    }
   }
 `;
 
