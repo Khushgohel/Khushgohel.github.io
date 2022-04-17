@@ -10,7 +10,7 @@ const StyledHeroSection = styled.section`
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-  padding: 0;
+  padding: 100px 0 0 0;
 
   @media (max-width: 480px) and (min-height: 700px) {
     padding-bottom: 10vh;
@@ -65,9 +65,9 @@ const Hero = () => {
     <>
       <p>
         I’m a system validation engineer at {' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
+        <a href="https://www.intel.com/content/www/us/en/homepage.html" target="_blank" rel="noreferrer">
           Intel
-        </a>{' '}validating server memory technologies with a goal to find hardware/silicon bugs before the product is released in the market. Additionally an enthusiastic researcher in the domain of nanotechnology, novel electronic devices and sensors. I am very fond of visual art, some of my intrests are photography, videography and playing guitar.
+        </a>{' '}validating server memory technologies with a goal to find hardware/silicon bugs before the product is released in the market. Additionally an enthusiastic researcher in the domain of nanotechnology, novel electronic devices and sensors. I am very fond of visual art, some of my interests are photography, videography and playing guitar.
       </p>
       <p>If you are interested in any of these topics, I would love to connect with you and geek around. </p>
     </>
