@@ -3,7 +3,7 @@ date: '2021-10-13'
 title: 'System Validation Engineer'
 company: 'Intel'
 location: 'Bengluru, IN'
-range: 'Oct 2021 - Present'
+range: 'Oct 2021 - July 2022'
 url: 'https://www.intel.com/content/www/us/en/homepage.html'
 ---
 

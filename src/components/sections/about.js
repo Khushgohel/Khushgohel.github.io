@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Server Validation', 'Persistent Memory', 'System Memories', '2D Material Devices', 'Physical Sensors', 'Transient Electronics', 'Memristors'];
+  const skills = ['Electro-Thermal Simulation', 'High Electron Mobility Transistors (HEMTs)', 'Wide Bandgap materials', 'High Pressure Chemical Vapour Depostion (HPCVD)','Server Validation', 'Persistent Memory', '2D Material Devices', 'Physical Sensors', 'Transient Electronics', 'Memristors'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,14 +136,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Khush, eversince I got to know about semiconductors and semiconductor devices I have been excited about the breakthroughs in electronics and device technologies. Moreover, I am piqued by use of nanotechnology in electronics to reach the capabilities where conventional silicon devices fall short.
+              Hello! My name is Khush, eversince I got to know about semiconductors and semiconductor devices I have been excited about the breakthroughs in electronics and device technologies. Moreover, I am piqued by use of novel materials in electronics to reach the capabilities where conventional silicon devices fall short.
             </p>
 
             <p>
               So far, I’ve had the pleasure of working at{' '}
+              <a href="https://www.intel.com/content/www/us/en/homepage.html">Intel Corp.</a> validating state-of-the-art Server memory technologies for Intel Xeon Processors, {' '}
               <a href="https://sites.google.com/hyderabad.bits-pilani.ac.in/parikshitsahatiya/">a nanodevice research lab</a>, and{' '}
               <a href="https://www.mmne.in/home">a MEMS research lab</a>. My
-              main focus these days is validating state-of-the-art Server memory technologies at <a href="https://www.intel.com/content/www/us/en/homepage.html">Intel Corp.</a> for upcoming Intel Xeon Processors.
+              main focus these days is improving electrical performance of existing High Electron Mobility Transistors that are fabricated using III-Nitride materials. Currently I am working as Research Assistant at {' '} <a href="https://wbgmaterdevices.wiscweb.wisc.edu/">Wide Bandgap Device Lab.</a>
             </p>
 
             <p>

@@ -60,7 +60,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Hi there currently I am looking forward to research internships in the domain of nanoelectronics. You have come so far, if you feel that I have a relevant profile feel free to contact me.
+        Hi there currently I am looking forward to research internships in the domain of semiconductor device design, and processing. You have come so far, if you feel that I have a relevant profile feel free to contact me.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

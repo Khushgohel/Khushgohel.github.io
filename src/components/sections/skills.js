@@ -304,8 +304,8 @@ const StyledProject = styled.li`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(4, minmax(140px, 250px));
-    grid-gap: 0 10px;
+    grid-template-columns: repeat(3, minmax(140px, 400px));
+    grid-gap: 0 20px;
     padding: 0;
     margin: 20px 0 0 0;
     overflow: hidden;
@@ -368,9 +368,9 @@ const Skills = () => {
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
   const fabTechList = ['Photolithography', 'Thermal Evaporation', '3D Printing', 'Direct UV Laser Writing', 'CO2 Laser Writing', 'Softlithography', 'Spin Coating']
-  const softKnownList = ['Origin', 'Xilinx Vivado', 'LT Spice', 'Simulink', 'Fusion360', 'AutoCAD', 'COMSOL', 'Adobe After Effects', 'Adobe Premiere Pro', 'Adobe Illustrator', 'Adobe Photoshop']
+  const softKnownList = ['Atlas Silvaco TCAD','Origin', 'Xilinx Vivado', 'LT Spice', 'Simulink', 'Fusion360', 'AutoCAD', 'COMSOL', 'Adobe After Effects', 'Adobe Premiere Pro', 'Adobe Illustrator', 'Adobe Photoshop']
   const progLangList = ['c/c++', 'Python', 'System Verilog', 'Verilog', 'x86 Assembly Language', 'Javascript', 'React JS', 'HTML', 'CSS']
-  const charTechList = ['Optical Microscopy', 'UV-Vis Spectroscopy', 'PL Spectroscopy', 'Impact and Tensile testing', 'Cyclic Voltammetry', 'FESEM/EDX', 'TEM', 'XPS data analysis', 'XRD data analysis', 'Galvanostatic Charge Discharge', 'Electro-Impedence Spectroscopy']
+  const charTechList = ['Atomic Force Microscopy', 'X-Ray Difraction', 'Scanning Electron Microscopy', 'UV-Vis Spectroscopy', 'PL Spectroscopy', 'Impact and Tensile testing', 'Cyclic Voltammetry', 'FESEM/EDX', 'TEM', 'XPS data analysis', 'XRD data analysis', 'Galvanostatic Charge Discharge', 'Electro-Impedence Spectroscopy']
 
   useEffect(() => {
     if (prefersReducedMotion) {

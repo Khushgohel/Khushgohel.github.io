@@ -64,12 +64,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a system validation engineer at {' '}
-        <a href="https://www.intel.com/content/www/us/en/homepage.html" target="_blank" rel="noreferrer">
-          Intel
-        </a>{' '}validating server memory technologies with a goal to find hardware/silicon bugs before the product is released in the market. Additionally an enthusiastic researcher in the domain of nanotechnology, novel electronic devices and sensors. I am very fond of visual art, some of my interests are photography, videography and playing guitar.
-      </p>
-      <p>If you are interested in any of these topics, I would love to connect with you and geek around. </p>
+        I’m a graduate student at <a href="https://engineering.wisc.edu/departments/electrical-computer-engineering/" target="_blank" rel="noreferrer">University of Wisconsin-Madison</a> {' '}pursuing Master of Science in Electrical and Computer Engineering. I am an enthusiastic researcher in the domain of novel electronic devices, sensors, and nanotechnology. Additionally, I am very fond of visual art, some of my interests are photography, videography and playing guitar.If you are interested in any of these topics, I would love to connect with you and geek around. </p>
     </>
   );
   const five = (
